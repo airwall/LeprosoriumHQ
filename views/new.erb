@@ -1,0 +1,17 @@
+
+ 
+ 
+ <form  class="form-horizontal" action='/new' method="post" role='form'>
+   <div class="form-group col-sm-9">
+   
+    <input type="text" class="form-control" name='content[name]' value = '<%= @c.name %>' id="name" placeholder="Ваше имя">
+     
+       <p></p>
+   
+   <textarea class="form-control" rows="7" name='content[content]' value = '<%= @c.content %>'  placeholder='Ведите текст вашего поста'></textarea>
+  <p></p>
+    <button type="submit" class="btn btn-primary ">Submit</button>
+   </div>
+   </br>
+ 
+</form>
